@@ -1,0 +1,31 @@
+/*
+lcd.css
+http://github.com/jephrei/lcd
+*/
+
+@import url('normalize.min.css');
+
+html {
+	font: 16px/1.5 sans-serif;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+img,
+svg,
+video,
+audio,
+canvas,
+input,
+textarea { max-width: 100%; }
+
+nav > ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+table { table-layout: fixed; }
+
+iframe { border: 0; }
